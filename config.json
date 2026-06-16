@@ -30,9 +30,25 @@
     "污染物"
   ],
   "sources": [
-    { "name": "食藥署公告", "url": "https://www.fda.gov.tw/TC/news.aspx?cid=4", "enabled": true },
-    { "name": "FES 食品輸銷平台", "url": "https://fes.fda.gov.tw/index", "enabled": true },
-    { "name": "TQF 最新消息", "url": "https://www.tqf.org.tw/News", "enabled": true },
-    { "name": "SGS 食品新聞", "url": "https://msn.sgs.com/News/FOOD", "enabled": true }
+    {
+      "enabled": true,
+      "name": "食藥署公告",
+      "url": "https://www.fda.gov.tw/TC/news.aspx?cid=4"
+    },
+    {
+      "enabled": true,
+      "name": "FES 食品輸銷平台",
+      "url": "https://fes.fda.gov.tw/index"
+    },
+    {
+      "enabled": true,
+      "name": "TQF 最新消息",
+      "url": "https://www.tqf.org.tw/News"
+    },
+    {
+      "enabled": true,
+      "name": "SGS 食品新聞",
+      "url": "https://msn.sgs.com/News/FOOD"
+    }
   ]
 }
