@@ -28,7 +28,54 @@
         <option value="中">中</option>
         <option value="低">低</option>
       </select>
+      <input id="startDate" type="date" title="開始日期" />
+      <input id="endDate" type="date" title="結束日期" />
       <button id="exportCsv">匯出 CSV</button>
+    </section>
+
+    <section class="settings">
+      <div class="settings-head">
+        <div>
+          <h2>追蹤設定</h2>
+          <p>可直接在網頁修改關鍵字、顯示日期範圍與搜尋網站。設定會存在目前瀏覽器。</p>
+        </div>
+        <button id="toggleSettings" class="ghost">展開 / 收合</button>
+      </div>
+
+      <div id="settingsPanel" class="settings-panel hidden">
+        <div class="field">
+          <label for="keywordBox">追蹤關鍵字</label>
+          <textarea id="keywordBox" rows="5" placeholder="每行一個關鍵字，例如：食品添加物"></textarea>
+          <small>每行一個關鍵字。系統會用這些字篩選法規標題與內容。</small>
+        </div>
+
+        <div class="grid-2">
+          <div class="field">
+            <label for="rangeDays">預設顯示最近幾天</label>
+            <input id="rangeDays" type="number" min="1" max="3650" />
+          </div>
+          <div class="field">
+            <label for="dateFormat">日期顯示格式</label>
+            <select id="dateFormat">
+              <option value="yyyy-mm-dd">2026-06-16</option>
+              <option value="yyyy/mm/dd">2026/06/16</option>
+              <option value="tw">民國 115/06/16</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field">
+          <label>搜尋網站</label>
+          <div id="sourceList" class="source-list"></div>
+          <button id="addSource" class="ghost small">＋新增網站</button>
+        </div>
+
+        <div class="settings-actions">
+          <button id="saveSettings">儲存設定</button>
+          <button id="resetSettings" class="danger">恢復預設</button>
+          <button id="downloadConfig" class="ghost">下載 config.json</button>
+        </div>
+      </div>
     </section>
 
     <section class="summary-grid">
@@ -55,8 +102,8 @@
     </section>
 
     <section class="note">
-      <h2>追蹤關鍵字</h2>
-      <p>食品、罐頭、飲料、液態營養品、食品添加物、標示、HACCP、GHP、輸中國、食品業者登錄、實驗室、檢驗方法、重金屬、農藥、動物用藥、TQF。</p>
+      <h2>提醒</h2>
+      <p>網頁上的設定會先存到目前瀏覽器。如果要讓 GitHub Actions 每月自動搜尋也套用新設定，請按「下載 config.json」後，把檔案上傳覆蓋到 GitHub 專案根目錄。</p>
     </section>
   </main>
 

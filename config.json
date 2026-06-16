@@ -1,0 +1,38 @@
+{
+  "dateRangeDays": 60,
+  "dateFormat": "yyyy-mm-dd",
+  "keywords": [
+    "食品",
+    "罐頭",
+    "飲料",
+    "液態營養",
+    "營養品",
+    "食品添加物",
+    "標示",
+    "HACCP",
+    "GHP",
+    "輸中國",
+    "食品業者登錄",
+    "實驗室",
+    "檢驗方法",
+    "重金屬",
+    "農藥",
+    "動物用藥",
+    "TQF",
+    "查驗登記",
+    "衛生安全",
+    "食品安全",
+    "廣告",
+    "輸入食品",
+    "輸出",
+    "外銷",
+    "微生物",
+    "污染物"
+  ],
+  "sources": [
+    { "name": "食藥署公告", "url": "https://www.fda.gov.tw/TC/news.aspx?cid=4", "enabled": true },
+    { "name": "FES 食品輸銷平台", "url": "https://fes.fda.gov.tw/index", "enabled": true },
+    { "name": "TQF 最新消息", "url": "https://www.tqf.org.tw/News", "enabled": true },
+    { "name": "SGS 食品新聞", "url": "https://msn.sgs.com/News/FOOD", "enabled": true }
+  ]
+}
