@@ -1,0 +1,50 @@
+{
+  "lastUpdated": "2026-06-16",
+  "items": [
+    {
+      "date": "2026-06-12",
+      "source": "食藥署",
+      "title": "預告訂定食用橄欖油及橄欖粕油品名及標示規定草案",
+      "url": "https://www.fda.gov.tw/TC/news.aspx?cid=4",
+      "impact": "低",
+      "relation": "若產品配方或代工品項使用橄欖油、橄欖粕油，需注意品名與標示規範。",
+      "action": "請研發、品保確認現有配方與標籤是否涉及橄欖油相關原料。"
+    },
+    {
+      "date": "2026-05-29",
+      "source": "食藥署 Q&A",
+      "title": "應設置實驗室之食品業者類別及規模相關問答更新",
+      "url": "https://www.fda.gov.tw/TC/siteList.aspx?sid=214",
+      "impact": "高",
+      "relation": "可能影響食品工廠是否需設置實驗室、檢驗設備或委外檢驗管理制度。",
+      "action": "請品保確認公司產品類別、資本額、工廠規模是否符合應設置實驗室條件。"
+    },
+    {
+      "date": "2026-05-19",
+      "source": "食藥署",
+      "title": "公告食品廣告合規輔導指引",
+      "url": "https://www.fda.gov.tw/TC/news.aspx?cid=4",
+      "impact": "中",
+      "relation": "影響官網、型錄、DM、產品介紹、業務簡報等食品宣稱內容。",
+      "action": "請業務、品保檢查文案是否有療效、誇大或容易誤導消費者的字眼。"
+    },
+    {
+      "date": "2026-05-19",
+      "source": "食藥署 Q&A",
+      "title": "食品業者登錄相關問答更新",
+      "url": "https://www.fda.gov.tw/TC/siteList.aspx?sid=214",
+      "impact": "中",
+      "relation": "影響食品業者登錄資料維護、產品類別、人員及工廠資訊正確性。",
+      "action": "請確認食品業者登錄平台資料是否仍符合公司現況，必要時更新。"
+    },
+    {
+      "date": "2026-06-03",
+      "source": "SGS",
+      "title": "2026年5月食品新聞回顧",
+      "url": "https://msn.sgs.com/News/FOOD/6681",
+      "impact": "中",
+      "relation": "彙整食品廣告、輸入食品不符合、污染物與檢驗相關消息，可作為品保追蹤清單。",
+      "action": "每月由品保或資訊人員檢視 SGS 食品新聞回顧，挑出與公司產品相關項目。"
+    }
+  ]
+}

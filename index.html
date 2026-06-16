@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>食品法規更新追蹤｜美達食品</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">Meita Food Regulatory Tracker</p>
+      <h1>食品法規更新追蹤</h1>
+      <p>每月追蹤食藥署、FES、TQF、SGS 等來源，篩選與食品工廠相關的法規與公告。</p>
+    </div>
+    <div class="hero-card">
+      <span>最後更新</span>
+      <strong id="lastUpdated">讀取中...</strong>
+    </div>
+  </header>
+
+  <main>
+    <section class="toolbar">
+      <input id="searchInput" type="search" placeholder="搜尋：食品添加物、標示、HACCP、輸中國..." />
+      <select id="impactFilter">
+        <option value="all">全部影響程度</option>
+        <option value="高">高</option>
+        <option value="中">中</option>
+        <option value="低">低</option>
+      </select>
+      <button id="exportCsv">匯出 CSV</button>
+    </section>
+
+    <section class="summary-grid">
+      <article><span>總筆數</span><strong id="totalCount">0</strong></article>
+      <article><span>高影響</span><strong id="highCount">0</strong></article>
+      <article><span>中影響</span><strong id="midCount">0</strong></article>
+      <article><span>低影響</span><strong id="lowCount">0</strong></article>
+    </section>
+
+    <section class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>日期</th>
+            <th>來源</th>
+            <th>標題</th>
+            <th>影響</th>
+            <th>與工廠關聯</th>
+            <th>建議處理</th>
+          </tr>
+        </thead>
+        <tbody id="lawTable"></tbody>
+      </table>
+    </section>
+
+    <section class="note">
+      <h2>追蹤關鍵字</h2>
+      <p>食品、罐頭、飲料、液態營養品、食品添加物、標示、HACCP、GHP、輸中國、食品業者登錄、實驗室、檢驗方法、重金屬、農藥、動物用藥、TQF。</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
